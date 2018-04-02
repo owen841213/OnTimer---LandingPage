@@ -25,7 +25,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
-
+      ga('require', 'eventTracker');
       gtag('config', 'UA-116685552-1');
     </script>
 
@@ -65,7 +65,7 @@
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
                 <h1 class="mb-5">聚會總是遲到?</h1>
-                <h2><span id='highlight'>OnTimer約會押金</span><br>從此聚會準時開始!</h2>
+                <h2><span id='highlight'>OnTimer聚會押金</span><br>從此聚會準時開始!</h2>
               </div>
             </div>
             <div class="col-lg-5 my-auto">
@@ -96,7 +96,7 @@
             <p>每當舉辦一場聚會，即可利用<span id="highlight">OnTimer</span>為這場聚會設定押金、參加名單；遲到的人將會損失部分的押金，並平分給所有在參加聚會名單上且準時抵達的朋友!
             </p>
             <div class="badges">
-              <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">上架時通知我!</a>
+              <a ga-on="click" ga-event-category="Video" ga-event-action="play">href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">上架時通知我!</a>
             </div>
           </div>
         </div>
