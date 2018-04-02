@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>OnTimer - 約會押金</title>
+    <title>OnTimer - 聚會押金</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">什麼是約會押金?</a>
+              <a class="nav-link js-scroll-trigger" href="#download">什麼是聚會押金?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#features">OnTimer怎麼幫助我?</a>
@@ -53,8 +53,8 @@
           <div class="row h-100">
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
-                <h1 class="mb-5">約會總是遲到?</h1>
-                <h2><span id='highlight'>OnTimer約會押金</span><br>從此約會準時開始!</h2>
+                <h1 class="mb-5">聚會總是遲到?</h1>
+                <h2><span id='highlight'>OnTimer約會押金</span><br>從此聚會準時開始!</h2>
               </div>
             </div>
             <div class="col-lg-5 my-auto">
@@ -81,12 +81,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">什麼是"約會押金"?</h2>
-            <p>每當舉辦一場約會，即可利用<span id="highlight">OnTimer</span>為這場約會設定押金、參加名單；遲到的人將會損失部分的押金，並平分給所有在參加名單上且準時抵達的朋友!
+            <h2 class="section-heading">什麼是"聚會押金"?</h2>
+            <p>每當舉辦一場聚會，即可利用<span id="highlight">OnTimer</span>為這場聚會設定押金、參加名單；遲到的人將會損失部分的押金，並平分給所有在參加聚會名單上且準時抵達的朋友!
             </p>
             <div class="badges">
-              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+              <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">上架時通知我!</a>
             </div>
           </div>
         </div>
@@ -96,7 +95,7 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>為了保住你的押金，也為了讓約會準時開始</h2>
+          <h2>為了保住你的押金，也為了讓聚會準時開始</h2>
           <p class="text-muted">請看看<span id='highlight'>OnTimer</span>提供的酷炫功能!</p>
           <hr>
         </div>
@@ -123,7 +122,7 @@
                   <div class="feature-item">
                     <i class="icon-screen-smartphone text-primary"></i>
                     <h3>罰金累進機制</h3>
-                    <p class="text-muted">找朋友一起揪團，押押金，隨著遲到時間越久扣的錢會越多*</p>
+                    <p class="text-muted">找朋友一起揪團，賭上你的押金，隨著遲到時間越久扣的錢會越多*</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
@@ -145,8 +144,8 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-lock-open text-primary"></i>
-                    <h3>推薦出門時間</h3>
-                    <p class="text-muted">會提醒響鈴要"準備"出門，等到出門後(GPS開始移動)，紀錄準備時間 客製化每個人準備出門時間，藉此搜集數據庫</p>
+                    <h3>提醒出門時間</h3>
+                    <p class="text-muted">OnTimer會依照你過去的數據，建議你提早出門的時間，同時保住寶貴的押金與難能可貴的友誼</p>
                   </div>
                 </div>
               </div>
@@ -159,7 +158,8 @@
     <section class="cta">
       <div class="cta-content">
         <div class="container">
-          <h2>試用OnTimer<br>約會準時開始</h2>
+          <h2>OnTimer</h2>
+          <h2 id="sub-title">聚會準時開始</h2>
           <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">現在就註冊!</a>
         </div>
       </div>
@@ -168,9 +168,9 @@
 
     <section class="contact bg-primary" id="contact">
       <div class="container">
-        <h2>讓更多
+        <h2>讓更多朋友知道
           <i class="fa fa-heart"></i>
-          朋友知道OnTimer!</h2>
+          <span id="highlight">OnTimer</span>!</h2>
         <ul class="list-inline list-social">
           <li class="list-inline-item social-twitter">
             <a href="#">
@@ -193,7 +193,7 @@
 
     <footer>
       <div class="container">
-        <p>&copy; Your Website 2018. All Rights Reserved.</p>
+        <p>&copy; OnTimer 2018. All Rights Reserved.</p>
         <ul class="list-inline">
           <li class="list-inline-item">
             <a href="#">Privacy</a>
@@ -209,8 +209,10 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
