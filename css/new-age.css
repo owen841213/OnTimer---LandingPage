@@ -203,47 +203,47 @@ header.masthead .device-container .screen img {
   }
 }
 
-section.download {
+section.explain-deposit {
   position: relative;
   padding: 150px 0;
 }
 
-section.download h2 {
+section.explain-deposit h2 {
   font-size: 50px;
   margin-top: 0;
 }
 
-#download .btn-outline  {
+#explain-deposit .btn-outline  {
   color: black;
   border-color: white;
 }
 
-#download .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+#explain-deposit .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: black;
   border-color: black;
   background-color: #fdcc52;
 }
 
-section .download .btn {
+section .explain-deposit .btn {
   border-radius: 300px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-section .download .btn-xl {
+section .explain-deposit .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
 }
 
 @media (min-width: 768px) {
-  section.download .badges .badge-link {
+  section.explain-deposit .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
-  section.download h2 {
+  section.explain-deposit h2 {
     font-size: 70px;
   }
 }
